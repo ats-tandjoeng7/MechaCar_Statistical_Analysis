@@ -298,7 +298,7 @@ view(aov_mechacar_Tukey)
 
 ## Summary
 
-Our test results and p-value &leq; 0.05 confirmed that the performance of MechaCar's *mpg* was highly competitive and significantly better compared to the competitors' *mpg* (fuelType1 vehicles). The test results also suggested that drivetrains statistically affect the fuel efficiency and some recent advances in AWD technology has improved AWD vehicles' fuel efficiency in general.
+Our test results and p-value &leq; 0.05 confirmed that the performance of MechaCar's *mpg* was highly competitive and significantly better compared to the competitors' *mpg* (fuelType1 vehicles). The test results also suggested that drivetrains statistically affect the fuel efficiency and some recent advances in AWD technology have improved AWD vehicles' fuel efficiency in general.
 
 All deliverables have been completed and analyzed according to the assignment requirements, including code refactoring, avoiding deprecated R's features, and quality assurance for ensuring accurate results. I hope users and stakeholders will be able to benefit from various visualizations in addition to the summary statistics tables and easily explore our analysis summary before drawing the final conclusions.
 
