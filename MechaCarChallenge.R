@@ -240,7 +240,7 @@ view(aov_frwd_Tukey)
 
 #boxplot with jittered datapoints
 plt1 <- ggplot(df, aes(factor(AWD), mpg, color = factor(AWD))) + 
-  stat_boxplot(geom = 'errorbar', color = 'black', width = 0.1) +
+  stat_boxplot(geom = 'errorbar', color = 'black', width = 0.6) +
   geom_boxplot(outlier.color = NA, color = 'black', notch = TRUE, notchwidth = 0.8) +
   geom_jitter(width = 0.2, size = 1) +
   scale_color_hue(direction = -1) +
@@ -251,7 +251,7 @@ plt1 <- ggplot(df, aes(factor(AWD), mpg, color = factor(AWD))) +
 
 #boxplot with jittered datapoints
 plt2 <- ggplot(comp_frwd, aes(drive, mpg, color = drive)) + 
-  stat_boxplot(geom = 'errorbar', color = 'black', width = 0.1) +
+  stat_boxplot(geom = 'errorbar', color = 'black', width = 0.6) +
   geom_boxplot(outlier.color = NA, color = 'black', notch = TRUE, notchwidth = 0.8) +
   geom_jitter(width = 0.2, size = 1) +
   scale_color_hue(direction = -1) +
@@ -262,7 +262,7 @@ plt2 <- ggplot(comp_frwd, aes(drive, mpg, color = drive)) +
 
 #boxplot with jittered datapoints
 plt3 <- ggplot(comp_awd, aes(drive, mpg, color = drive)) + 
-  stat_boxplot(geom = 'errorbar', color = 'black', width = 0.1) +
+  stat_boxplot(geom = 'errorbar', color = 'black', width = 0.6) +
   geom_boxplot(outlier.color = NA, color = 'black', notch = TRUE, notchwidth = 0.8) +
   geom_jitter(width = 0.2, size = 1) +
   scale_y_continuous(limits = c(0, 85)) +
