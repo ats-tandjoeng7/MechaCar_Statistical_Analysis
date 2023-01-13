@@ -102,7 +102,7 @@ Below are the summary statistics of the two models. Fig. 1 and Fig. 2 show the s
 # Call:
 #   lm(formula = mpg ~ vehicle_length + ground_clearance, data = df)
 # 
-# Residuals:
+# Residuals:showed
 #   Min      1Q     Median    3Q     Max 
 # -17.493  -7.705   1.344   6.642  18.500 
 # 
@@ -258,7 +258,7 @@ Using our knowledge of R, we designed a statistical study to compare the perform
   - The null hypothesis (H<sub>0</sub>) was defined based on the average combined city/highway fuel efficiency that was published by the U.S. Environmental Protection Agency, either **30.70** for All-Wheel Drive drivetrain or **34.62** for Front-Wheel Drive drivetrain. These values could be derived by running the following code snippet or by analyzing specific graphical visualizations (Fig. 7).
   - The alternative hypothesis (H<sub>A</sub>) would require p-value to be &leq; 0.05.
 - What statistical test would you use to test the hypothesis? And why?
-  - T-test, ANOVA test, and graphical visualizations, such as boxplots and probability density function (PDF). Fig. 7 illustrated some possible analytics and visualizations that would be useful when comparing the performance of MechaCar's *mpg* vs the competitors' *mpg*.
+  - T-test, ANOVA test, and graphical visualizations, such as boxplots and probability density function (PDF). Fig. 7 illustrates some possible analytics and visualizations that would be useful when comparing the performance of MechaCar's *mpg* vs the competitors' *mpg*.
 - What data is needed to run the statistical test?
   - As for One Sample t-test, I compared the performance of MechaCar's *mpg* with the mean of the standard combined city/highway *mpg*.
   - As for ANOVA test and graphical visualizations, unlike *drive* data in the fuel economy dataset, I had to use R's `factor()` function to first convert the continuous *AWD* data from [MechaCar_mpg.csv](./Resources/MechaCar_mpg.csv) to a discrete data type before we could perform test and visualizations on several drivetrains.
